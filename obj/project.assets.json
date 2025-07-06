@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mmandava\\Documents\\2025\\June 2025\\MartianRobots\\MartianRobots.csproj",
+      "projectUniqueName": "C:\\Users\\mmandava\\source\\repos\\2025\\brand_refresh\\MartianRobots\\MartianRobots.csproj",
       "projectName": "MartianRobots",
-      "projectPath": "C:\\Users\\mmandava\\Documents\\2025\\June 2025\\MartianRobots\\MartianRobots.csproj",
+      "projectPath": "C:\\Users\\mmandava\\source\\repos\\2025\\brand_refresh\\MartianRobots\\MartianRobots.csproj",
       "packagesPath": "C:\\Users\\mmandava\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mmandava\\Documents\\2025\\June 2025\\MartianRobots\\obj\\",
+      "outputPath": "C:\\Users\\mmandava\\source\\repos\\2025\\brand_refresh\\MartianRobots\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -28,7 +28,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mmandava\\Documents\\2025\\June 2025\\MartianRobots\\NuGet.Config",
+        "C:\\Users\\mmandava\\source\\repos\\2025\\brand_refresh\\MartianRobots\\NuGet.Config",
         "C:\\Users\\mmandava\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",

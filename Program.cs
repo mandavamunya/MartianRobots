@@ -30,7 +30,7 @@ namespace MartianRobots
         public Position Position;
         public bool IsLost = false;
 
-        private static readonly Dictionary<Orientation, (int dx, int dy)> MoveForward = new()
+        private static readonly Dictionary<Orientation, (int dx, int dy)> MoveForward = new Dictionary<Orientation, (int dx, int dy)> ()
         {
             { Orientation.N, (0, 1) },
             { Orientation.E, (1, 0) },
@@ -90,7 +90,9 @@ namespace MartianRobots
     {
         static void Main(string[] args)
         {
-            string[] lines = File.ReadAllLines("input.txt");
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string inputFilePath = Path.Combine(currentDirectory, "input.txt");
+            string[] lines = File.ReadAllLines(inputFilePath);
             var gridSize = lines[0].Split(' ');
             int maxX = int.Parse(gridSize[0]);
             int maxY = int.Parse(gridSize[1]);
