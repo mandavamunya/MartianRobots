@@ -3,6 +3,15 @@
 ## Problem Overview
 This project solves the Martian Robots challenge, where robots navigate a rectangular grid on Mars, following instructions and avoiding falling off the edge. Robots leave a "scent" if lost, preventing future robots from being lost at the same spot and orientation.
 
+## Approach & Tech Choices
+- **Language:** C# (.NET 9) — Chosen for its strong typing, readability, and suitability for console applications.
+- **Structure:** All logic is encapsulated in a single file (`Program.cs`) for simplicity, but with clear separation of concerns (Robot, Position, main logic).
+- **Input/Output:** Reads from `input.txt` in the working directory, outputs results to the console.
+- **Testing:** Logic is encapsulated in classes and methods, making it easy to write unit tests (see `Test` section below).
+- **No UI:** As per requirements, no UI or extra features are added—just the core logic.
+- **Simplicity:** The code is intentionally kept simple and focused, with clear variable names, comments, and structure. No unnecessary abstractions or features are included.
+- **Extensibility:** The solution is designed so that new commands or features can be added with minimal changes.
+
 ## Features
 - Supports extensible robot commands (L, R, F)
 - Handles lost robots and scent logic
